@@ -14,6 +14,13 @@ module.exports = {
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-image`,
     {
+      resolve: `gatsby-source-contentful`,
+      options: {
+        spaceId: `wljgk5nkl6ic`,
+        accessToken: `i9UxEDroSJ5qQiTQNF9K3-JfSHFYRNeHNvtQ_J9kMaI`
+      }
+    },
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
