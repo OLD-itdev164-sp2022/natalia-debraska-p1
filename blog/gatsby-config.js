@@ -4,7 +4,7 @@ require('dotenv').config({
 
 module.exports = {
   siteMetadata: {
-    title: `Art Gallery`,
+    title: `Galeria de Arte`,
     description: `Display of paints created by a new artist.`,
     author: `DeBraska`,
     contact: {
